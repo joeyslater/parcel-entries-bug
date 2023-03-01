@@ -10,7 +10,7 @@
     "@babel/runtime" "^7.0.0"
     bind-event-listener "^2.1.1"
 
-"@atlaskit/tokens@^1.1.0":
+"@atlaskit/tokens@^1.2.1":
   version "1.2.1"
   resolved "https://packages.atlassian.com/api/npm/npm-remote/@atlaskit/tokens/-/tokens-1.2.1.tgz#2f3900b781c3715b2bd240ed5edc9c72a26110b7"
   integrity sha512-E9bF8OLXVIr69QxELGgbS2rSM3uCAbjU6SlimE2Spu+CVWA3GU+lUeLBggBhz1eP1LzpuOzLCdm1ECMJBNBreg==

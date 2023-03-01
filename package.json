@@ -4,10 +4,14 @@
   "private": true,
   "scripts": {
     "clean": "rm -rf ./dist",
-    "build": "yarn clean && parcel build --target main1 --target main2"
+    "build": "yarn clean && parcel build --target main1 --target main2",
+    "build:main1": "parcel build --target main1",
+    "build:main2": "parcel build --target main2",
+    "build:all": "yarn clean && yarn build:main1 && yarn build:main2"
+
   },
   "dependencies": {
-    "@atlaskit/tokens": "^1.1.0",
+    "@atlaskit/tokens": "^1.2.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
